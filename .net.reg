@@ -1,0 +1,20 @@
+Windows Registry Editor Version 5.00
+
+; 64-bit .NET Framework v4
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]
+"SchUseStrongCrypto"=dword:00000001
+"SystemDefaultTlsVersions"=dword:00000001
+
+; 32-bit on 64-bit OS
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]
+"SchUseStrongCrypto"=dword:00000001
+"SystemDefaultTlsVersions"=dword:00000001
+
+; .NET Framework v2 (uyum için)
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v2.0.50727]
+"SchUseStrongCrypto"=dword:00000001
+"SystemDefaultTlsVersions"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v2.0.50727]
+"SchUseStrongCrypto"=dword:00000001
+"SystemDefaultTlsVersions"=dword:00000001
